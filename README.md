@@ -8,7 +8,7 @@ This Python script allows you to copy/move files with same name but difference e
 - For training, we ensure that for each image, its corresponding annotations are present.
 - However, while labeling it is possible that several images do not contain their corresponding annotation files (say XML, TXT or JSON).
 - This script separates images from the folder based on annotation files.
--
+- 
 ## Usage
 
 ```bash
