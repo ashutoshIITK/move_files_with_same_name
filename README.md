@@ -15,9 +15,9 @@ Python script to copy/move files with the same name but different extensions.
  python3 move_file.py --annotations "/folder/containing/annotations/" --ext_a xml --images "folder/containing/images" --ext_i png      
 ```
 
-- `annotations` flag is used to point to folder containing annotations based on their file names you want to move the corresponding images
-- ext_a flag is used for the type of files you want to move. It could be xml, json, txt, etc.
-- images flag is for the folder that contains several images from where you wish to filter only those that have their annotations
-- ext_i indicates the extension type for images, which could be png, jpg, jpeg, etc.
-- --move is used to move files from the original directory. Default behaviour is copy unless specified otherwise
+- `annotations`: You can point to a folder containing annotations based on their file names to move the corresponding images with this flag.
+- `ext_a`: This flag indicates the type of files (annotations) you intend to move. It could be XML, JSON, TXT, etc.
+- `images` This is used for a folder containing several images from which you wish to filter out only those with annotations as specified by the `annotations` flag.
+- `ext_i` Image extensions, such as PNG, JPG, JPEG, etc., are described here.
+- `--move` (Optional) is used to move files from the original directory. The default behavior is copying files instead of moving unless specified otherwise.
 
